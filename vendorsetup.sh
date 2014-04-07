@@ -15,4 +15,4 @@
 #
 
 add_lunch_combo full_acclaim-userdebug
-add_lunch_combo cm_acclaim-userdebug
+add_lunch_combo cd_acclaim-userdebug

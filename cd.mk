@@ -15,13 +15,13 @@
 # Inherit device configuration for acclaim
 
 $(call inherit-product, device/bn/acclaim/full_acclaim.mk)
-$(call inherit-product-if-exists, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product-if-exists, vendor/cyandream/config/common_full_tablet_wifionly.mk)
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 1024
 
 DEVICE_PACKAGE_OVERLAYS += device/bn/acclaim/overlay/cm
 
-PRODUCT_NAME := cm_acclaim
+PRODUCT_NAME := cd_acclaim
 PRODUCT_DEVICE := acclaim
 PRODUCT_MODEL := Barnes & Noble Nook Tablet
 PRODUCT_RELEASE_NAME := NookTablet

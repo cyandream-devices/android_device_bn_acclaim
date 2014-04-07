@@ -1,0 +1,17 @@
+[
+  {
+    "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_device_bn_omap4-common",
+    "target_path": "device/bn/omap4-common"
+  },
+  {
+    "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_kernel_bn_acclaim",
+    "target_path": "kernel/bn/acclaim"
+  },
+ { 
+   "branch": "cm-11.0", 
+   "repository": "TheMuppets/proprietary_vendor_bn", 
+   "target_path": "vendor/bn" 
+ } 
+]
